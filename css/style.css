@@ -1,0 +1,193 @@
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    position:absolute; top:0px;left:0;
+    z-index: 99;
+}
+
+.main-image {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    background: rgba(255,255,255,0.8);
+   /*opacity:0.1; */
+    display: flex;
+}
+
+
+/*.home_image{*/
+/*    width: 100%;*/
+/*    text-align: left;*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.u-max-full-width{*/
+/*    margin: 0;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    height: 100vh;*/
+/*    max-width: 100%;*/
+/*}*/
+
+#container {
+    width: 100%;
+    text-align: center;
+}
+ 
+/* fullSlider
+--------------------------- */
+.fullSlider {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+.fullSlider ul,
+.fullSlider ul li {
+    float: left;
+    display: inline;
+    overflow: hidden;
+}
+.fullSlider ul li {
+    position: relative;
+}
+.fullSlider ul li img {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+ 
+.fullViewWrap {
+    top: 0;
+    position: fixed; /* absolute or fixed */
+    overflow: hidden;
+}
+ 
+/* SideNavi
+------------------------- */
+.fullSlider .btnPrev,
+.fullSlider .btnNext {
+    margin-top: -25px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    position: fixed; /* absolute or fixed */
+    z-index: 105;
+}
+/*.fullSlider .btnPrev {*/
+/*    left: 10px;*/
+/*    background: transparent url(../img/btnPrev.png) no-repeat center center;*/
+/*}*/
+/*.fullSlider .btnNext {*/
+/*    right: 10px;*/
+/*    background: transparent url(../img/btnNext.png) no-repeat center center;*/
+/*}*/
+ 
+/* PagiNation
+--------------------------- */
+.pagiNation {
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    position: fixed; /* absolute or fixed */
+    z-index: 110; /* 非表示にする場合は「90」以下に */
+    visibility: visible; /* 非表示にする場合は「hidden」に */
+    display: none;
+}
+.pagiNation a {
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    overflow: hidden;
+    background: #000;
+}
+.pagiNation a.pnActive {
+    filter:alpha(opacity=100)!important;
+    -moz-opacity: 1!important;
+    opacity: 1!important;
+}
+ 
+/* Wrapper
+--------------------------- */
+#wrapper {
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    position: relative;
+    z-index: 120;
+}
+ 
+.contents {
+    padding: 30px 50px 50px 50px;
+}
+.contents p {
+    padding-bottom: 3em;
+    line-height: 180%;
+}
+ 
+/* =======================================
+    ClearFixElements
+======================================= */
+.fullSlider ul:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+.fullSlider ul {
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+
+.header_name {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: serif;
+    padding-top: 20px;
+    padding-left: 35px;
+    width: 300px;
+}
+
+
+
+.navbar_top ul li {
+    list-style: none;
+    display: inline;
+    
+}
+
+.navbar_top ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+}
+
+.navbar_top ul {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /*padding: 0 30px 30px 0;*/
+    width: 400px;
+    float: right;
+}
+
+.navbar_top {
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
