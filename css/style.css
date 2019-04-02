@@ -360,9 +360,11 @@ footer {
     font-size: 15px;
     text-align: center;
     padding-bottom: 40px;
+    font-family: serif;
 }
 
 .about_contents_three {
+    font-family: serif;
     background-color: white;
     line-height: 2em;
     margin-right: 15%;
@@ -373,6 +375,7 @@ footer {
 }
 
 .about_contents_four {
+    font-family: serif;
     background-color: white;
     line-height: 2em;
     margin-right: 15%;
@@ -383,6 +386,7 @@ footer {
 }
 
 .about_contents_five {
+    font-family: serif;
     background-color: white;
     line-height: 2em;
     margin-right: 15%;
@@ -681,6 +685,7 @@ header-four {
 }
 
 .about_contents_sp {
+    font-family: serif;
     line-height: 2em;
     margin-right: 7%;
     margin-left: 7%;
@@ -692,6 +697,7 @@ header-four {
 }
 
 .about_contents_sp_two {
+    font-family: serif;
     background-color: white;
     line-height: 2em;
     margin-right: 7%;
@@ -702,6 +708,7 @@ header-four {
 }
 
 .about_contents_sp_three {
+    font-family: serif;
     background-color: white;
     line-height: 2em;
     margin-right: 7%;
@@ -712,6 +719,7 @@ header-four {
 }
 
 .about_contents_sp_four {
+    font-family: serif;
     background-color: white;
     line-height: 2em;
     margin-right: 7%;
@@ -723,6 +731,7 @@ header-four {
 
 .about_contents_sp_five {
     background-color: white;
+    font-family: serif;
     line-height: 2em;
     margin-right: 7%;
     margin-left: 7%;
