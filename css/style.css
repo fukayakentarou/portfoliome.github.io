@@ -15,26 +15,10 @@ header {
     width: 100%;
     height: 80px;
     background-color: white;
-    background: rgba(255,255,255,0.8);
-   /*opacity:0.1; */
+    background-color: rgba(255,255,255,0.7); 
     display: flex;
 }
 
-
-/*.home_image{*/
-/*    width: 100%;*/
-/*    text-align: left;*/
-/*    position: relative;*/
-/*    overflow: hidden;*/
-/*}*/
-
-/*.u-max-full-width{*/
-/*    margin: 0;*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    height: 100vh;*/
-/*    max-width: 100%;*/
-/*}*/
 
 #container {
     width: 100%;
@@ -81,15 +65,7 @@ header {
     position: fixed; /* absolute or fixed */
     z-index: 105;
 }
-/*.fullSlider .btnPrev {*/
-/*    left: 10px;*/
-/*    background: transparent url(../img/btnPrev.png) no-repeat center center;*/
-/*}*/
-/*.fullSlider .btnNext {*/
-/*    right: 10px;*/
-/*    background: transparent url(../img/btnNext.png) no-repeat center center;*/
-/*}*/
- 
+
 /* PagiNation
 --------------------------- */
 .pagiNation {
@@ -101,7 +77,7 @@ header {
     position: fixed; /* absolute or fixed */
     z-index: 110; /* 非表示にする場合は「90」以下に */
     visibility: visible; /* 非表示にする場合は「hidden」に */
-    display: none;
+    /*display: none;*/
 }
 .pagiNation a {
     margin: 0 5px;
@@ -155,11 +131,11 @@ header {
 .header_name {
     color: black;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     font-family: serif;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-left: 35px;
-    width: 300px;
+    width: 500px;
 }
 
 
@@ -180,14 +156,588 @@ header {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    /*padding: 0 30px 30px 0;*/
-    width: 400px;
+    width: 300px;
     float: right;
+ 
 }
 
 .navbar_top {
+    width: 100%;
+    margin-top: 32px;
+    margin-right: 40px;
+}
+
+header-four {
+    width: 100%;
+    height: 80px;
+}
+
+.main-top-image {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+}
+
+.header-four-name {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: serif;
+    padding-top: 20px;
+    padding-left: 35px;
+    width: 500px;
+}
+
+.navbar-four-top {
     width: 100%;
     margin-top: 29px;
     margin-right: 40px;
 }
 
+.navbar-four-top ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 300px;
+    float: right;
+    
+}
+
+.navbar-four-top ul li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar-four-top ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+}
+
+.hobby_image {
+    width: 63.3%;
+    margin-right: 18.3%;
+    margin-left: 18.3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hobby-frame {
+   
+    margin-bottom: 45px;
+    width: 29%;
+    background-color: white;
+    padding: 5px 5px 3px 5px;
+    
+
+}
+
+.hobby_image_one {
+    max-width: 100%;
+}
+
+.hobby_main {
+    width: 100%;
+    background-color: #F5F5F5;
+    
+}
+
+.hobby_title {
+    margin: 0 0 50px 0;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    padding-top: 10px;
+}
+
+
+.hobby_text {
+    width: 40%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 31%;
+    margin-left: 31%;
+}
+
+.hobby_description {
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.5em;	
+}
+
+
+footer {
+    width: 100%;
+}
+
+.footer_navi {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+.footer_text p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.copy {
+    font-size: 15px;
+    font-family: serif;
+}
+
+.about_contents {
+    font-family: serif;
+}
+
+.hobby_country {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.hobby_country img {
+    width: 4.5%;
+    display: inline-block;
+}
+
+
+.navbar_top_sp {
+    display: none;
+}
+
+.navbar_four_sp{
+    display: none;
+}
+
+.hobby_top_main_image {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding-top: 100px;
+}
+
+.hobby_top_main_image img {
+    width: 28.5%;
+    display: inline-block;
+}
+
+.about_main {
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+}
+
+.about_profile{
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    margin-top: 60px;
+}
+
+.about_contents {
+    line-height: 2em;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 15px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.about_contents_two {
+    background-color: white;
+    line-height: 2em;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.about_contents_three {
+    background-color: white;
+    line-height: 2em;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.about_contents_four {
+    background-color: white;
+    line-height: 2em;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.about_contents_five {
+    background-color: white;
+    line-height: 2em;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about_top_title {
+    font-size: 20px;
+    font-family: 'arial narrow';
+    padding-top: 120px;
+    padding-bottom: 20px;
+    letter-spacing: 0.2em;
+    -ms-writing-mode: tb-rl;
+    
+}
+
+
+
+.about_top_title p {
+    text-align: center;
+    font-family: serif;
+    font-size: 25px;
+    color: red;
+}
+
+.about_title {
+  line-height:1.5em;
+  padding-top: 30px;
+  display:inline;
+}
+
+
+
+.about_description {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    padding-top: 30px;
+}
+
+.special {
+  -webkit-text-orientation: upright;
+  text-orientation: upright;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: serif;
+}
+
+.my_photo {
+    width: 100%;
+    margin:auto;
+    padding-top: 100px;
+    
+  
+}
+
+.my_photo img {
+    display: inline;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.kentaroufukaya {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about_profile {
+    
+}
+
+.about_profile_sp {
+    display:none;
+}
+
+
+
+@media (max-width: 767px) {
+    
+.navbar_top{
+    display: none;
+}
+
+.navbar_top_sp{
+    display: block;
+    
+}
+
+.glyphicon{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top:30px;
+    right:10%;
+    z-index: 100;
+}
+
+.navbar_top_sp ul li {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    font-size: 20px;
+    border-bottom: solid black thin;
+}
+
+.header_name {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 15px;
+    width: 260px;
+}
+
+.navbar_top_sp ul {
+    display: none;
+    position: absolute;
+    top: 99%;
+    right: 1%;
+    z-index: 99;
+    width: 100%;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.navbar_top_sp ul li a{
+    color: black;
+    font-family: serif;
+}
+
+header-four {
+    width: 100%;
+    position: fixed;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 99;
+}
+
+.header-four-name {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 15px;
+    width: 400px;
+}
+.navbar-four-top {
+    width: 120px;
+    margin-top: 29px;
+    margin-right: 40px;
+}
+
+.navbar-four-top {
+    display: none;
+}
+
+.navbar_four_sp {
+    display: block;
+}
+
+.navbar_four_sp ul {
+    display: none;
+    position: absolute;
+    top: 99%;
+    right: 1%;
+    z-index: 99;
+    width: 100%;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.7);
+    margin-top: 0;
+}
+
+.navbar_four_sp ul li {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    font-size: 20px;
+    border-bottom: solid black thin;
+}
+
+.navbar_four_sp ul li a {
+    color: black;
+    font-family: serif;
+}
+
+.hobby_country img {
+    width: 18.5%;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.hobby_country {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.hobby-flame {
+    margin-top: 3%;
+}
+
+.hobby_text {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.hobby_image {
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobby-frame {
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 3px 3px 2px 3px;
+}
+
+.footer_text p {
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+.hobby_description {
+    font-size: 15px;
+    font-family: serif;
+}
+
+.hobby_title {
+    padding-top: 20px;
+}
+
+.hobby_top_main_image  {
+    width: 100%;
+    padding-top: 30px;
+}
+.hobby_top_main_image img {
+    width: 78.5%;
+}
+
+.my_photo {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.my_photo img {
+    
+    max-width: 90%;
+    margin: 0;
+    margin-left: 5%;
+}
+
+.about_top_title {
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.my_photo p {
+    top: 130px;
+    display: none;
+}
+
+.about_profile {
+    display: none;
+}
+
+.about_profile_sp {
+    display: block;
+    width: 100%;
+}
+
+.about_title_sp {
+    -ms-writing-mode: tb-rl;
+    line-height: 1em;
+    padding-top: 15px;
+    display: inline;
+   
+}
+
+.about_description_sp {
+    padding-top: 20px;
+    background-color: white;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about_contents_sp {
+    line-height: 2em;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.about_contents_sp_two {
+    background-color: white;
+    line-height: 2em;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.about_contents_sp_three {
+    background-color: white;
+    line-height: 2em;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.about_contents_sp_four {
+    background-color: white;
+    line-height: 2em;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.about_contents_sp_five {
+    background-color: white;
+    line-height: 2em;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.special_sp {
+    font-size: 13px;
+    font-family: serif;
+}
+
+.about_top_title {
+    display: none;
+}
+
+}
